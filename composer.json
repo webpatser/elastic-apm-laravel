@@ -24,21 +24,21 @@
    },
    "autoload":{
       "psr-4":{
-         "Webpatser\\ElasticApmLaravel\\":"src/"
+         "PhilKra\\ElasticApmLaravel\\":"src/"
       }
    },
    "autoload-dev":{
       "psr-4":{
-         "Webpatser\\Tests\\":"tests/"
+         "PhilKra\\Tests\\":"tests/"
       }
    },
    "extra":{
       "laravel":{
          "providers":[
-            "Webpatser\\ElasticApmLaravel\\Providers\\ElasticApmServiceProvider"
+            "PhilKra\\ElasticApmLaravel\\Providers\\ElasticApmServiceProvider"
          ],
          "aliases":{
-            "ElasticApm":"Webpatser\\ElasticApmLaravel\\Facades\\ElasticApm"
+            "ElasticApm":"PhilKra\\ElasticApmLaravel\\Facades\\ElasticApm"
          }
       }
    },
